@@ -1,0 +1,61 @@
+\documentclass{configuracion}
+\usepackage{lipsum}
+
+\begin{document}
+
+%----------- Información del informe ---------
+
+\titulo{Título del trabajo} %título del archivo .pdf | titulo ppal
+\tema{Subtítulo del trabajo \\ \textbf{Temática del trabajo}} % Titulo 2
+
+\profesor{Don. \textsc{Nombre}\\Apellido} %Nombre del profesor
+\piepagina{Trabajo XX}
+
+\estudiantes{Rubia López \textsc{Víctor José}} %Nombre del alumno
+%----------- Inicialización -------------------
+        
+\crearlogos %Mostrar márgenes
+\crearportada %Crear la portada
+\crearindice %Creación del índice de contenidos
+
+%------------ Cuerpo del informe ----------------
+
+
+\section{Sección X} 
+
+
+\input{}
+
+\bibliographystyle{apacite} % We choose the "plain" reference style
+\bibliography{refs} % Entries are in the refs.bib file
+
+
+% %------------- Comandos útiles ----------------
+
+% \section{Comandos útiles}
+
+% Estos son algunos comandos útiles :
+
+% %------ Para insertar y citar una imagen centralizada -----
+
+% \insererfigure{logos/Logo_UGR.jpg}{3cm}{Leyenda}{Label de la figure}
+% % El primer argumento es el camino hacia la imagen
+% % La segunda es la altura de la foto
+% % La tercera leyenda
+% % El cuarto es la etiqueta para las referencias
+% Aquí cito la imagen \ref{fig: Label de la figure}
+
+
+% %------- Para insertar y citar una ecuación --------------
+
+% \begin{equation} \label{eq: exemple}
+% \rho + \Delta = 42
+% \end{equation}
+
+% La ecuación \ref{eq: exemple} se cita aquí. 
+
+% % ------- Para escribir variables ----------------------
+
+% Para escribir variables en el texto, basta con poner el símbolo \$ entre el texto deseado como: constante $\rho$. 
+
+\end{document}

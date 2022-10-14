@@ -67,7 +67,7 @@
 \ThisLRCornerWallPaper{0.6}{logos/ugr_marca_agua.png}
 	\centering %Centralizar los contenidos
 	\includegraphics[width=0.3\textwidth]{logos/Logo_UGR.jpg}\par\vspace{1cm} %Inserción del logotipo
-	{\scshape\LARGE Universidad de Granada\par} %Nombre de la universidad
+	{\scshape\LARGE Máster Universitario en Ingeniería Informática\par} %Nombre de la universidad
 	\vspace{1.5cm}%Espacio de 1,5cm
 	{\scshape\Large \UE \\ \tema \par} %subtítulo
 	\vspace{1cm}%Espacio de 1cm
